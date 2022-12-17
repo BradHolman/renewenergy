@@ -1,0 +1,567 @@
+font-family: 'Limelight', cursive;
+
+p{
+  font-size: 1.5em;
+  margin-left: 25px;
+}
+body{
+  width: 1000px;
+}
+
+.container{
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    background: #111;
+    position: absolute;
+
+}
+.bop{
+  left: 50%;
+  top: 50%;
+}
+
+.landing{
+  width: 100%;
+  position:absolute;
+  margin: 0;
+  padding: 0;
+}
+
+.welcome {
+  position: absolute;
+  left: 25px;
+  top: 50px;
+  font-size: 3em;
+  font-family: Limelight;
+  font-variant: cursive;
+  color: beige;
+  margin: 0;
+  padding: 0;
+}
+h1 {font-size: 3em;
+color: #F1C863;
+margin: 10px;
+
+}
+h2{
+  font-size: 3em;
+  color: #F1C863;
+  margin: 10px;
+}
+
+.contents{
+  margin: 0; padding:0;
+  margin-top:750px;
+  width: 100%;
+  height:1000px;
+  background: #111;
+  position: absolute;
+  font-family:Limelight;
+  text-align: left;
+  color: #fff;
+
+}
+.contents h2 {
+  position: relative;
+  margin-left: 275px;
+  border-style: groove;
+  width: 1000px;
+  height: 50px;
+
+}
+
+.cardcontainer h1{
+  position: relative;
+  margin-left: 275px;
+  border-style: groove;
+  width: 1000px;
+  height: 50px;
+  top:375px;
+}
+.box {
+  position: relative;
+  margin-left: 25px;
+  background-color: #1675e0;
+  border-radius: 25px;
+  width: 50%;
+  height:200px;
+  box-sizing: content-box;
+  border-style: solid;
+  top:25px;
+  font-size: 20px;
+
+
+}
+.text {
+  position: relative;
+  margin-left: 25px;
+  border-style: groove;
+  width: 80%;
+  height:200px;
+  color: beige;
+  top: 10px;
+
+
+
+}
+.banner{
+  position: relative;
+  width: 1100px;
+  height: 300px;
+  left: 100px;
+  top:200px;
+}
+
+.card{
+  font-family: Orbitron;
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  position: absolute;
+}
+.cardcontainer {
+  font-family: Orbitron;
+  margin:0; padding:0;
+  width:100%;
+  height: 1800px;
+  position: absolute;
+  top:1600px;
+  background: #111;
+
+}
+
+.flip-box1 {
+  position: absolute;
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  border-radius: 25px;
+  left:125px;
+  top: 100px;/* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box1:hover .flip-box-inner1 {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front1, .flip-box-back1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front1 {
+  background-color: #bbb;
+  color: black;
+  height: 300px;
+  width: 300px;
+}
+
+/* Style the back side */
+.flip-box-back1 {
+  background-color: lightblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.wind{
+font-family: Limelight;
+font-size: 24px;
+color: black;
+padding:10px;
+
+
+}
+.info1{
+  color: black;
+  font-size: 20px;
+  text-align: left;
+padding: 5px;
+}
+
+.flip-box2 {
+  position: absolute;
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  border-radius: 25px;
+  left:500px;
+  top: 100px;
+  /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box2:hover .flip-box-inner2 {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front2, .flip-box-back2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front2 {
+  background-color: #bbb;
+  color: black;
+  height: 300px;
+  width: 300px;
+}
+
+/* Style the back side */
+.flip-box-back2 {
+  background-color: lightblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.coal{
+font-family: Limelight;
+font-size: 24px;
+color: black;
+padding:10px;
+
+
+}
+.info2{
+  color: black;
+  font-size: 20px;
+  text-align: left;
+padding: 5px;
+}
+
+.flip-box3 {
+  position: absolute;
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  border-radius: 25px;
+  left:875px;
+  top: 100px;
+  /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box3:hover .flip-box-inner3 {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front3, .flip-box-back3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front3 {
+  background-color: #bbb;
+  color: black;
+  height: 300px;
+  width: 300px;
+}
+
+/* Style the back side */
+.flip-box-back3 {
+
+  background-color: lightblue;
+  /* For browsers that do not support gradients */
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.ev{
+font-family: Limelight;
+font-size: 24px;
+color: black;
+padding: 5px;
+
+
+}
+.info3{
+  color: black;
+  font-size: 20px;
+  text-align: left;
+padding: 5px;
+}
+
+
+.banner2{
+  position: relative;
+  width: 1100px;
+  height: 300px;
+  left: 100px;
+  top:600px;
+
+}
+
+.flip-box4 {
+  position: absolute;
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  border-radius: 25px;
+  left:125px;
+  top: 1000px;
+  /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner4 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box4:hover .flip-box-inner4 {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front4, .flip-box-back4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front4 {
+  background-color: #bbb;
+  color: black;
+  height: 300px;
+  width: 300px;
+}
+
+/* Style the back side */
+.flip-box-back4 {
+
+  background-color: lightblue;
+  /* For browsers that do not support gradients */
+  transform: rotateY(180deg);
+}
+
+.nuke{
+font-family: Limelight;
+font-size: 24px;
+color: black;
+padding:10px;
+
+
+}
+.info4{
+  color: black;
+  font-size: 20px;
+  text-align: left;
+padding: 5px;
+}
+.flip-box5 {
+  position: absolute;
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  border-radius: 25px;
+  left:500px;
+  top: 1000px;
+  /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner5 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box5:hover .flip-box-inner5 {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front5, .flip-box-back5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front5 {
+  background-color: #bbb;
+  color: black;
+  height: 300px;
+  width: 300px;
+}
+
+/* Style the back side */
+.flip-box-back5 {
+
+  background-color: lightblue;
+  /* For browsers that do not support gradients */
+  transform: rotateY(180deg);
+}
+
+.nuke{
+font-size: 24px;
+color: black;
+padding:10px;
+
+
+}
+.info5{
+  color: black;
+  font-size: 20px;
+  text-align: left;
+padding: 5px;
+}
+.flip-box6 {
+  position: absolute;
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  border-radius: 25px;
+  left:875px;
+  top: 1000px;
+  /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner6 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box6:hover .flip-box-inner6 {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front6, .flip-box-back6 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front6 {
+  background-color: #bbb;
+  color: black;
+  height: 300px;
+  width: 300px;
+}
+
+/* Style the back side */
+.flip-box-back6 {
+
+  background-color:  lightblue;
+  /* For browsers that do not support gradients */
+  transform: rotateY(180deg);
+}
+
+.sun{
+font-family: Limelight;
+font-size: 24px;
+color: black;
+padding:10px;
+
+
+}
+.info6{
+  color: black;
+  font-size: 20px;
+  text-align: left;
+padding: 5px;
+}
+
+.link{
+  box-sizing: border-box;
+  width: 150px;
+  height: 50px;
+  background: lightgreen;
+  border-radius: 25px;
+  left: 575px;
+  position: absolute;
+  top:1400px;
+  text-align: center;
+  font-size: 24px;
+  font-family: Limelight;
+  color: black;
+}
